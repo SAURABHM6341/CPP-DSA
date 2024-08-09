@@ -1,0 +1,9 @@
+ek slow pointer banao aur ek fast fast wala 2 steps chalega aur dono ko aage badao jab tak koi NULL na ho jaye ya fir dono barabar na ho jaye jaise hi barabar ho fast ko whi rhen do slow ko wpas head me bhej do phir slow and fast dono pointer ko ek ek steps chalwao jab tak meet na ho jaye jha meet ho rhe h whi pr last wala pointer point kr rha h
+ab slow ko as a temporary head maan lo aur jaise fast ko ek step iterate karao aur last tak le jao jo point kr rha slow ko then fast ke next ko null kr do thats it;
+
+
+
+***************************dusri appraoch**************
+map create kr lo node* aur bool ka aur har ek node ko visited mark krte rho jaise jaise iterate kroge 
+ek temp banao jo head->next me rhega aur previous temp jo temp ke phle wasle rhega (ptemp is only for last node ko pta krne ke liye)
+agr iteration me koi vissited node aagyi to ptemp ke next ko null kr do yani uske pehle wale ko null kr do kyoki whi last node h;

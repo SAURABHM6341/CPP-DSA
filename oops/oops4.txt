@@ -1,0 +1,28 @@
+-------------------ENCAPSULATION-----------------------
+
+Definition --> wrapping up all data member or properties and function;
+means class
+-> class saare properties or data member and function kaa samuh h 
+-> fully encapsulated capsule => classes me jab saare members private ho jaye to us class ko fully encapsulated kehte h 
+-> advantage of fully encapsulation :-
+1) security of data member badh jati h;
+2) agr ham chahe to getter ka use krke dataa acess kr skte h aur setter ka use na krke usko modification se bacha skte h jisse security of data modification badh jayegi
+i.e., we can make it read only;
+3) code reusability;
+4) unit testing--easy to manage;
+
+---------------------INHERITENCE--------------------------
+
+Definition --> jaise koi ek generation dusre generation se inherit krti h usi prakar parent class ya super class se sub class ya chhild class inherit krte h 
+example->
+jaise hamne ek super class ya parent class human naamm ki banayi jiski properties me height weight e.t.c. h aur hame do class banayi male and femmale jo ki human class ki properties ko inherit krega hence ye do sub class kehlayengi 
+-->implementation is in inheritance.cpp(refer for more clearity);
+<<<<<< TYPES OF INHERITANCE >>>>>>>
+1) single
+2) multilevel
+3) multiple
+4) hybrid
+5) heirarical
+
+-------inheritance ambiguity------------
+aapne ek class A banayi jiske andar ek member data ho ya function jinka naam TT h aur ek class B banayi jiske kisimember ka naam bhi TT h  aur ek class C me dono ko inherit kr liya ab jab TT ko call kiya to konsa call hoga A wala ya B wala iske liye scope banaya gya C.A::TT isse A ka TT call hoga;

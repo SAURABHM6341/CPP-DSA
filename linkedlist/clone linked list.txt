@@ -1,0 +1,3 @@
+approach1 = phle next wale copy kr lo pfir ek map bnao aur useme first node ko second list ke 1st se point krao
+aur map kr do code is in gfg problemset
+apprach 2  = O(1) space complexity ke liye aap is baar sach me list 1 ki next ki link break kr ke list 2 kko point kraiye jaise list h 1->2->3->4 aur list 2 bhi yhi h to aap list 1 ke next ko htakar clone ko point kraiye 1->1->2->2->3->3.... aise then fir node 1 se iterate krao aur jo temp ka randon point kr rha to temp ke nec=xt me yani list 2 ke node ko usi random ke next me point kra do then saari random link set ho jayengi then ussse revert back kr dena h 
